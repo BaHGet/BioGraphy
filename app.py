@@ -42,7 +42,7 @@ def About():
         Any = request.form.get("Any")
         db.execute('INSERT INTO "FeedBacks" ("opinions","Problems","Suggestions", "Any") VALUES (:op,:pro,:sug,:a)'
         , op=opinions, pro=Problems, sug=Suggestions, a=Any)
-        return redirect("../index.html")
+        return redirect("/")
     if request.method == "GET":
         return render_template("About.html")
 
