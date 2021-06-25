@@ -21,7 +21,7 @@ h1, p{
 div.about{
     background-color: #2106a6;
     width: 600px;
-    height: 700px;
+    /*height: 700px;*/
     margin-top:150px;
     margin-left: 500px;
     filter: drop-shadow( 4px 6px 8px rgba(0, 0, 0, .9));
