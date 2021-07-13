@@ -445,6 +445,27 @@ img.youtube:hover{
     transition: all 1s;
 }
 
+img.facebook{ 
+
+    transition: ease-in-out;
+    transition: all 1s;
+}
+
+img.twitter{ 
+    transition: ease-in-out;
+    transition: all 1s;
+}
+
+img.instagram{ 
+
+    transition: ease-in-out;
+    transition: all 1s;
+}
+
+img.youtube{ 
+    transition: ease-in-out;
+    transition: all 1s;
+}
 
 
 
