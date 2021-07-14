@@ -6,8 +6,10 @@ body{
 }
 
 body.about{
-    background-image: url(Photos/background.jpg);
-    transition: all 1s;
+    background-image: linear-gradient(362deg, #a4508b 0%, #5f0a87 74%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #main{
     background-color:rgb(245, 243, 243)
@@ -20,12 +22,27 @@ h1, p{
 }
 
 div.about{
-    background-color: #2106a6;
-    width: 600px;
+    /*background-color: #2106a6;
+    
     /*height: 700px;*/
-    margin-top:150px;
-    margin-left: 500px;
-    filter: drop-shadow( 4px 6px 8px rgba(0, 0, 0, .9));
+/*    display: flex;
+    align-items: center;
+    filter: drop-shadow( 4px 6px 8px rgba(0, 0, 0, .9));*/
+    width: 600px;
+    /* top:56px;
+    left:0;
+    right:0; */
+    background-color:rgba(255,255,255,0.4);
+    border-radius: 10px;
+    border:1px solid rgba(255,255,255,0.2);
+    position: absolute;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    display:block;
+    margin:0 auto;
+    z-index: 2;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
 }
 
 p.about{
@@ -35,18 +52,22 @@ p.about{
     margin-top: 10px;
     font-family: 'Roboto', sans-serif; 
     text-align:center;
-    color:white;  
+    color:rgb(0, 0, 0);  
     transition: all 1s;
 }
 
 form{
+    
     margin-left: 150px;
+    display: block;
+    align-items: center;
 }
 
 input{
     opacity: 1;
     color: rgb(255, 255, 255);
-    background-color: #4f4196;
+    background-color:rgba(255,255,255,0.4);
+    -webkit-backdrop-filter: blur(5px);
     border-radius: 10rem;
     border-style: solid;
     border-color: black;
@@ -466,4 +487,7 @@ img.instagram{
 img.youtube{ 
     transition: ease-in-out;
     transition: all 1s;
+}
+iframe.spotify{
+    box-shadow: 0px 0px 50px 10px rgb(253, 162, 162);
 }
