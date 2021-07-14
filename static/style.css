@@ -413,7 +413,7 @@ img.icons{
 img.facebook:hover{ 
     margin-bottom: 10px;
     border-radius:100rem;
-    border-width: 1px;
+    border:none; 
     box-shadow: 0px 0px 50px 20px rgb(3, 104, 255);
     transition: ease-in-out;
     transition: all 1s;
